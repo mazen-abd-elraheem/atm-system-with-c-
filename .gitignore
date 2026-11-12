@@ -1,0 +1,25 @@
+# Build directories and compiled binaries
+build/
+cmake-build-*/
+out/
+*.exe
+*.obj
+*.o
+*.a
+*.lib
+*.pdb
+*.ilk
+
+# Runtime generated data and audit logs
+accounts.txt
+transactions.txt
+audit.txt
+
+# IDE and OS files
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+.DS_Store
+Thumbs.db
